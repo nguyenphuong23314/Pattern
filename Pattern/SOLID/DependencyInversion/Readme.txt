@@ -21,5 +21,12 @@
 - This design pattern support testing as the dependencies are passed through the constructor.
 
 
++ When to use Property Dependency Injection over Constructor Injection and vice versa?
+- The Setter/Property Dependency Injection in C# is rarely used in real-time applications. For example, if I have a class that has several methods but those methods do not depend on any other objects. Now I need to create a new method within the same class but that new method now depends on another object. If we use the constructor dependency injection here, then we need to change all the existing constructor calls where we created this class object. This can be a very difficult task if the project is a big one. Hence, in such scenarios, the Setter or Property Dependency Injection can be a good choice.
+
++ What are the advantages of using Dependency Injection in C#?
+- The Dependency Injection Design Pattern allows us to develop loosely coupled software components.
+- Using Dependency Injection, it is very easy to swap with a different implementation of a component, as long as the new component implements the interface type.
+
 
 
