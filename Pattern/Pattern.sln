@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{EC950056-D6A9-452D-89CF-88AEF3E91CD0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic_DependencyInjection", "SOLID\Basic_DependencyInjection.csproj", "{EC950056-D6A9-452D-89CF-88AEF3E91CD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{D932A10C-4AF2-44D0-B03E-73121BE1F673}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DependencyInjection", "DependencyInjection", "{8F079CF1-B36F-4EEA-BE4D-DDD64213AA64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +22,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC950056-D6A9-452D-89CF-88AEF3E91CD0} = {8F079CF1-B36F-4EEA-BE4D-DDD64213AA64}
+		{8F079CF1-B36F-4EEA-BE4D-DDD64213AA64} = {D932A10C-4AF2-44D0-B03E-73121BE1F673}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E0FCB34-2E71-4059-A904-CE177CBC7826}
